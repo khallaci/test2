@@ -1,1 +1,2 @@
-print("Hello CodeRabbit!) 
+print("Hello CodeRabbit!)
+print(a)
