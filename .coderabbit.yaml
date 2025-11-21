@@ -1,0 +1,19 @@
+reviews:
+  auto_review: true
+  branches:
+    include:
+      - "*"
+
+  # Enable SQL file review
+  static_analysis:
+    enabled: true
+    languages:
+      - sql
+
+  # Enable security scanning (SQL injection, etc.)
+  security:
+    enabled: true
+    types:
+      - sql_injection
+
+summary: true
