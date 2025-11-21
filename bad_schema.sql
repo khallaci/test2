@@ -2,7 +2,7 @@
 CREATE TABLE users (
     id INTEGER PRIMARY KEY
     username TEXT NOT NULL
-    email TEXT NOT NULL
+    email TEXT NOT NUL
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP  -- MISSING COMMA before this line (syntax error)
 );
 
