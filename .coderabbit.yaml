@@ -1,8 +1,9 @@
 reviews:
-  auto_review: true
-  branches:
-    include:
-      - "*"
+  auto_review:
+    enabled: true
+    branches:
+      include:
+        - "*"
 
   # Enable SQL file review
   static_analysis:
